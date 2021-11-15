@@ -20,7 +20,8 @@
         "start": "npm run dev-server",
         "dev-server": "cross-env NODE_ENV=development webpack-dev-server --config config/webpack.dev.js"
     },
-    "devDependencies": {
+    "dependencies": {
+        "@adyen/adyen-web": "4.9.0",
         "@adyen/adyen-web-server": "1.0.0",
         "autoprefixer": "^10.3.6",
         "core-js": "^3.18.1",
@@ -44,8 +45,5 @@
         "webpack-dev-server": "^3.11.2",
         "webpack-merge": "^5.8.0",
         "whatwg-fetch": "^3.6.2"
-    },
-    "dependencies": {
-        "@adyen/adyen-web": "4.9.0"
     }
 }
